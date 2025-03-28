@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Browse4Pets</title>
   <link rel="stylesheet" href="./styles.css">
-  <link rel="shortcut icon" href="./images/logo-header.png" type="image/x-icon">
+  <link rel="shortcut icon" href="./assets/logo-yellow.png" type="image/x-icon">
   <script src="https://cdn.tailwindcss.com"></script>
   <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.24/dist/full.min.css" rel="stylesheet" type="text/css" />
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -19,9 +19,9 @@
       theme: {
         extend: {
           fontFamily: {
-            adlam: ["ADLaM Display", "serif"],
-            sora: ["Sora", "serif"],
-          },
+            "adlam": ["ADLaM Display", "serif"],
+            "sora": ["Sora", "serif"]
+          }
         }
       }
     }
@@ -33,17 +33,17 @@
     <!------------------------------ Navbar ------------------------------>
     <nav class="bg-navbar">
       <div class="py-1 lg:py-2 pl-4 pr-2 sm:pl-6 sm:pr-4 lg:px-10 xl:px-14 2xl:px-20 container mx-auto">
-        <div class="navbar p-0 flex justify-between">
+        <div class="navbar p-0 flex justify-between items-center">
           <div>
-            <a class="btn btn-ghost text-2xl p-0"><img src="./images/logo-header.png" loading="lazy" alt="Logo"><span
+            <a class="btn btn-ghost text-2xl p-0"><img src="./assets/logo-yellow.png" loading="lazy" alt="Logo"><span
                 class="font-sora text-black font-normal hidden sm:block text-xl">Browse<span
                   class="text-yellow-400">4</span>Pets</span></a>
           </div>
           <div class="hidden lg:flex font-sora font-normal">
-            <ul class="menu menu-horizontal px-2 text-base">
-              <li class="xl:px-1"><a>Find Pets</a></li>
-              <li class="xl:px-1"><a>Breeds</a></li>
-              <li class="xl:px-1"><a>Contact Us</a></li>
+            <ul class="flex px-2 text-base items-center">
+              <li class="xl:px-1"><a class="btn btn-ghost btn-sm text-base font-normal h-9">Find Pets</a></li>
+              <li class="xl:px-1"><a class="btn btn-ghost btn-sm text-base font-normal h-9">Breeds</a></li>
+              <li class="xl:px-1"><a class="btn btn-ghost btn-sm text-base font-normal h-9">Contact Us</a></li>
             </ul>
           </div>
           <div class="flex items-center">
@@ -66,7 +66,7 @@
                 </svg>
               </button>
               <ul tabindex="0"
-                class="menu menu-md dropdown-content bg-base-100 rounded-box z-[1] mt-2 w-44 p-4 shadow font-sora">
+                class="menu menu-md dropdown-content bg-base-100 rounded-box z-[1] mt-1 w-40 p-4 shadow font-sora">
                 <li><a class="text-base font-normal">Find Pets</a></li>
                 <li><a class="text-base font-normal">Breeds</a></li>
                 <li><a class="text-base font-normal">Contact Us</a></li>
@@ -97,7 +97,7 @@
       </div>
       <div
         class="absolute -z-10 -bottom-28 sm:-bottom-32 md:-bottom-36 lg:-bottom-44 xl:-bottom-48 2xl:-bottom-56 left-1 lg:left-16 xl:left-[8.4rem] 2xl:left-[12.5rem] right-1 lg:right-16 xl:right-28 2xl:right-48 lg:max-w-4xl xl:max-w-5xl 2xl:max-w-6xl">
-        <img src="./images/cat-big.png" loading="lazy" alt="Big Cat">
+        <img src="./assets/cat-big.png" loading="lazy" alt="Big Cat">
       </div>
     </section>
   </header>
@@ -112,7 +112,7 @@
           <div class="card-body p-7 items-center text-center">
             <div class="avatar">
               <div class="p-5 bg-white rounded-full mx-auto">
-                <img src="./images/dog-cartoon.png" loading="lazy" alt="Dog Cartoon" />
+                <img src="./assets/dog-cartoon.png" loading="lazy" alt="Dog Cartoon" />
               </div>
             </div>
             <h4 class="card-title font-adlam font-normal mt-3">Dogs</h4>
@@ -123,7 +123,7 @@
           <div class="card-body p-7 items-center text-center">
             <div class="avatar">
               <div class="p-5 bg-white rounded-full mx-auto">
-                <img src="./images/fish-cartoon.png" loading="lazy" alt="Fish Cartoon" />
+                <img src="./assets/fish-cartoon.png" loading="lazy" alt="Fish Cartoon" />
               </div>
             </div>
             <h4 class="card-title font-adlam font-normal mt-3">Fishes</h4>
@@ -134,7 +134,7 @@
           <div class="card-body p-7 items-center text-center">
             <div class="avatar">
               <div class="p-5 bg-white rounded-full mx-auto">
-                <img src="./images/cat-cartoon.png" loading="lazy" alt="Cat Cartoon" />
+                <img src="./assets/cat-cartoon.png" loading="lazy" alt="Cat Cartoon" />
               </div>
             </div>
             <h4 class="card-title font-adlam font-normal mt-3">Cats</h4>
@@ -145,7 +145,7 @@
           <div class="card-body p-7 items-center text-center">
             <div class="avatar">
               <div class="p-5 bg-white rounded-full mx-auto">
-                <img src="./images/bird-cartoon.png" loading="lazy" alt="Bird Cartoon" />
+                <img src="./assets/bird-cartoon.png" loading="lazy" alt="Bird Cartoon" />
               </div>
             </div>
             <h4 class="card-title font-adlam font-normal mt-3">Birds</h4>
@@ -156,7 +156,7 @@
           <div class="card-body p-7 lg:px-6 xl:px-7 items-center text-center">
             <div class="avatar">
               <div class="p-6 bg-white rounded-full mx-auto">
-                <img src="./images/mouse-cartoon.png" loading="lazy" alt="Mouse Cartoon" />
+                <img src="./assets/mouse-cartoon.png" loading="lazy" alt="Mouse Cartoon" />
               </div>
             </div>
             <h4 class="card-title font-adlam font-normal mt-3">Small Pets</h4>
@@ -167,7 +167,7 @@
           <div class="card-body p-7 items-center text-center">
             <div class="avatar">
               <div class="p-[1.4rem] bg-white rounded-full mx-auto">
-                <img src="./images/rabbit-cartoon.png" loading="lazy" alt="Rabbit Cartoon" />
+                <img src="./assets/rabbit-cartoon.png" loading="lazy" alt="Rabbit Cartoon" />
               </div>
             </div>
             <h4 class="card-title font-adlam font-normal mt-3">Rabbits</h4>
@@ -195,7 +195,7 @@
             </div>
             <div
               class="absolute bottom-0 left-[44%] right-[6%] sm:left-[18.5rem] sm:right-8 md:left-[25rem] md:right-6 lg:left-44 lg:right-16 xl:left-44 xl:right-14 2xl:left-52 2xl:right-20 max-w-48 sm:max-w-56 lg:max-w-none">
-              <img src="./images/pet-mid.png" loading="lazy" alt="Medium Pet">
+              <img src="./assets/pet-mid.png" loading="lazy" alt="Medium Pet">
             </div>
           </div>
           <!------------------------------ Pet Products ------------------------------>
@@ -203,7 +203,7 @@
             class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-4 gap-3 lg:gap-4 flex-1">
             <div class="flex items-center gap-4 p-2 border rounded-lg bg-white">
               <div class="bg-red-50 bg-opacity-70 rounded-lg p-3 max-w-[40%] grid place-content-center">
-                <img src="./images/pet-couch.png" loading="lazy" alt="Pet Couch">
+                <img src="./assets/pet-couch.png" loading="lazy" alt="Pet Couch">
               </div>
               <div>
                 <div class="rating rating-xs xl:rating-sm items-center">
@@ -216,7 +216,7 @@
             </div>
             <div class="flex items-center gap-4 p-2 border rounded-lg bg-white">
               <div class="bg-red-50 bg-opacity-70 rounded-lg p-3 max-w-[40%] grid place-content-center">
-                <img src="./images/fish-cartoon.png" loading="lazy" alt="Fish Cartoon">
+                <img src="./assets/fish-cartoon.png" loading="lazy" alt="Fish Cartoon">
               </div>
               <div>
                 <div class="rating rating-xs xl:rating-sm items-center">
@@ -229,7 +229,7 @@
             </div>
             <div class="flex items-center gap-4 p-2 border rounded-lg bg-white">
               <div class="bg-red-50 bg-opacity-70 rounded-lg p-3 max-w-[40%] grid place-content-center">
-                <img src="./images/bird-cartoon.png" loading="lazy" alt="Bird Cartoon">
+                <img src="./assets/bird-cartoon.png" loading="lazy" alt="Bird Cartoon">
               </div>
               <div>
                 <div class="rating rating-xs xl:rating-sm items-center">
@@ -242,7 +242,7 @@
             </div>
             <div class="flex items-center gap-4 p-2 border rounded-lg bg-white">
               <div class="bg-red-50 bg-opacity-70 rounded-lg p-3 max-w-[40%] grid place-content-center">
-                <img src="./images/dog-cartoon.png" loading="lazy" alt="Dog Cartoon">
+                <img src="./assets/dog-cartoon.png" loading="lazy" alt="Dog Cartoon">
               </div>
               <div>
                 <div class="rating rating-xs xl:rating-sm items-center">
@@ -255,7 +255,7 @@
             </div>
             <div class="flex items-center gap-4 p-2 border rounded-lg bg-white">
               <div class="bg-red-50 bg-opacity-70 rounded-lg p-3 max-w-[40%] grid place-content-center">
-                <img src="./images/cat-cartoon.png" loading="lazy" alt="Cat Cartoon">
+                <img src="./assets/cat-cartoon.png" loading="lazy" alt="Cat Cartoon">
               </div>
               <div>
                 <div class="rating rating-xs xl:rating-sm items-center">
@@ -268,7 +268,7 @@
             </div>
             <div class="flex items-center gap-4 p-2 border rounded-lg bg-white">
               <div class="bg-red-50 bg-opacity-70 rounded-lg p-3 max-w-[40%] grid place-content-center">
-                <img src="./images/pet-couch.png" loading="lazy" alt="Pet Couch">
+                <img src="./assets/pet-couch.png" loading="lazy" alt="Pet Couch">
               </div>
               <div>
                 <div class="rating rating-xs xl:rating-sm items-center">
@@ -281,7 +281,7 @@
             </div>
             <div class="flex items-center gap-4 p-2 border rounded-lg bg-white">
               <div class="bg-red-50 bg-opacity-70 rounded-lg p-3 max-w-[40%] grid place-content-center">
-                <img src="./images/fish-cartoon.png" loading="lazy" alt="Fish Cartoon">
+                <img src="./assets/fish-cartoon.png" loading="lazy" alt="Fish Cartoon">
               </div>
               <div>
                 <div class="rating rating-xs xl:rating-sm items-center">
@@ -294,7 +294,7 @@
             </div>
             <div class="flex items-center gap-4 p-2 border rounded-lg bg-white">
               <div class="bg-red-50 bg-opacity-70 rounded-lg p-3 max-w-[40%] grid place-content-center">
-                <img src="./images/bird-cartoon.png" loading="lazy" alt="Bird Cartoon">
+                <img src="./assets/bird-cartoon.png" loading="lazy" alt="Bird Cartoon">
               </div>
               <div>
                 <div class="rating rating-xs xl:rating-sm items-center">
@@ -307,7 +307,7 @@
             </div>
             <div class="hidden sm:flex lg:hidden xl:flex items-center gap-4 p-2 border rounded-lg bg-white">
               <div class="bg-red-50 bg-opacity-70 rounded-lg p-3 max-w-[40%] grid place-content-center">
-                <img src="./images/dog-cartoon.png" loading="lazy" alt="Dog Cartoon">
+                <img src="./assets/dog-cartoon.png" loading="lazy" alt="Dog Cartoon">
               </div>
               <div>
                 <div class="rating rating-xs xl:rating-sm items-center">
@@ -320,7 +320,7 @@
             </div>
             <div class="hidden xl:flex items-center gap-4 p-2 border rounded-lg bg-white">
               <div class="bg-red-50 bg-opacity-70 rounded-lg p-3 max-w-[40%] grid place-content-center">
-                <img src="./images/cat-cartoon.png" loading="lazy" alt="Cat Cartoon">
+                <img src="./assets/cat-cartoon.png" loading="lazy" alt="Cat Cartoon">
               </div>
               <div>
                 <div class="rating rating-xs xl:rating-sm items-center">
@@ -333,7 +333,7 @@
             </div>
             <div class="hidden xl:flex items-center gap-4 p-2 border rounded-lg bg-white">
               <div class="bg-red-50 bg-opacity-70 rounded-lg p-3 max-w-[40%] grid place-content-center">
-                <img src="./images/pet-couch.png" loading="lazy" alt="Pet Couch">
+                <img src="./assets/pet-couch.png" loading="lazy" alt="Pet Couch">
               </div>
               <div>
                 <div class="rating rating-xs xl:rating-sm items-center">
@@ -346,7 +346,7 @@
             </div>
             <div class="hidden xl:flex items-center gap-4 p-2 border rounded-lg bg-white">
               <div class="bg-red-50 bg-opacity-70 rounded-lg p-3 max-w-[40%] grid place-content-center">
-                <img src="./images/fish-cartoon.png" loading="lazy" alt="Fish Cartoon">
+                <img src="./assets/fish-cartoon.png" loading="lazy" alt="Fish Cartoon">
               </div>
               <div>
                 <div class="rating rating-xs xl:rating-sm items-center">
@@ -378,7 +378,7 @@
           </div>
           <div
             class="absolute -bottom-3 left-[40%] sm:left-[7.5rem] md:left-44 lg:left-[17rem] xl:left-96 xl:right-6 2xl:left-[30rem] 2xl:right-12 max-w-56 md:max-w-[15rem] lg:max-w-none">
-            <img src="./images/dog-mid.png" loading="lazy" alt="Medium Dog">
+            <img src="./assets/dog-mid.png" loading="lazy" alt="Medium Dog">
           </div>
         </div>
         <!------------------------------ T-Shirt For Dogs ------------------------------>
@@ -390,7 +390,7 @@
           </div>
           <div
             class="absolute bottom-0 left-[38%] right-6 sm:left-12 sm:right-4 md:left-20 lg:left-[7.5rem] xl:left-48 xl:right-6 2xl:left-60 2xl:right-20 max-w-56">
-            <img src="./images/pet-mid.png" loading="lazy" alt="Medium Pet">
+            <img src="./assets/pet-mid.png" loading="lazy" alt="Medium Pet">
           </div>
         </div>
       </div>
@@ -402,7 +402,7 @@
         <div class="absolute py-8 px-5 top-[4.5rem] lg:top-24 left-0 right-0 text-black bg-navbar rounded-lg">
           <div class="flex flex-col lg:flex-row gap-6 lg:gap-0 justify-center lg:justify-evenly items-center">
             <div class="w-[216px] lg:w-96 mx-auto lg:mx-0">
-              <img src="./images/pet-mid.png" loading="lazy" alt="Medium Pet">
+              <img src="./assets/pet-mid.png" loading="lazy" alt="Medium Pet">
             </div>
             <div class="text-center lg:text-left w-full lg:w-1/2">
               <h3 class="text-xl font-medium font-adlam">Get Pawsome News!</h3>
@@ -415,7 +415,7 @@
                 deals and
                 more.</p>
               <input type="text" placeholder="Enter email"
-                class="input focus:border-none w-full max-w-sm lg:max-w-md mb-4 lg:mb-6" />
+                class="input focus:border-transparent focus:outline-0 focus:ring-0 w-full max-w-sm lg:max-w-md mb-4 lg:mb-6" />
               <button
                 class="btn btn-neutral bg-yellow-400 border-none text-black hover:text-white text-base font-sora font-normal px-7 h-10 min-h-9 block mx-auto lg:mx-0">Subscribe</button>
             </div>
@@ -429,7 +429,7 @@
     <div
       class="pt-[22rem] lg:pt-[19.5rem] pb-16 lg:pb-24 footer text-base-content px-4 sm:px-6 lg:px-10 xl:px-14 2xl:px-20 container mx-auto justify-between">
       <div>
-        <a class="btn btn-ghost text-2xl p-0"><img src="./images/logo-footer.png" loading="lazy" alt="Logo"><span
+        <a class="btn btn-ghost text-2xl p-0"><img src="./assets/logo-black.png" loading="lazy" alt="Logo"><span
             class="font-sora text-black font-normal text-xl">Browse4Pets</span></a>
         <p class="pt-2 font-sora opacity-80 max-w-md md:max-w-72 lg:max-w-96">
           Discover a world of treats, toys and essentials handpicked for your furry friends.
