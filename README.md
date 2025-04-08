@@ -4,7 +4,7 @@
 
 Welcome to **Browse 4 Pets**, a modern and fully responsive landing page designed to showcase various kinds of pets and pet accessories of a pet store. The project aims to provide an engaging and seamless user experience, ensuring a visually appealing layout with easy accessibility on mobile, tablet and desktop devices.
 
-### [Click here](https://browse-4-pets-sajjadur-rahman.netlify.app/) to visit the website.
+### [Click here](https://browse-4-pets-by-sajjadur-rahman.netlify.app/) to visit the website.
 
 ## Technologies Used
 
