@@ -1,0 +1,29 @@
+.bg-navbar {
+  background-color: #fff9f4;
+}
+
+.bg-card {
+  background-color: #f9df8a;
+}
+
+@media screen and (min-width: 1024px) {
+  .bg-trending {
+    background-color: #fff9f4;
+  }
+}
+
+@keyframes pulse {
+  0%,
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+  50% {
+    opacity: 0.5;
+    transform: scale(1.05);
+  }
+}
+
+.animate-pulse-custom {
+  animation: pulse 2s ease-in-out infinite;
+}
